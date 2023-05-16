@@ -135,13 +135,13 @@ class App extends Component {
                 alt="password"
               />
               <input
-                type="text"
+                type="password"
                 placeholder="Enter Password"
                 onChange={this.listenPassword}
                 value={password}
               />
             </div>
-            <button type="button">Add</button>
+            <button type="submit">Add</button>
           </form>
           <img
             src="https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png"
